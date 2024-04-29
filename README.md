@@ -8,7 +8,13 @@ The full visualisation can be found on https://kayley-tcy.shinyapps.io/PSY6422_M
 
 A full project overview with static image can be found in index.html or markdown_230255274.pdf.
 
-For raw data, cleaned data, and codebook, refer to the data folder in the MPI folder. 
+In the MPI folder,
+
+app.R: created to deploy the visualisations online.
+
+background.Rmd and summary.Rmd: Brief introduction and interpretations for the project to be included in shiny.
+
+data folder: codebook, raw data, and cleaned data
 
 
 
