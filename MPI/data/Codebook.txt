@@ -1,0 +1,55 @@
+Data source:
+Both sets of raw data set were obtained from OPHI: https://ophi.org.uk/global-mpi/2023
+The data sets were "Data Table 1: National results 2023" and "Data Table 6: Trends over Time 2023" respectively.
+
+Both cleaned and raw data set can be found in the folder "data". The raw data is in the .xlsx format and the cleaned data is in .csv format.
+
+The data for mpi_time was scrapped from one of the sheet in the raw data and only necessary data was extracted. The full data set can be found in "MPI Data Over Time.xlsx" 
+
+Variables description for mpi_time:
+
+Country: The list of the countries with MPI data collected. 
+
+World.Region: The different regions that the countries belong to.
+
+Survey.Type: The types of survey used to collect the MPI data in the first time point.
+
+t0: The first timepoint that the MPI data was collected.
+
+Survey.Type.1L The types of survey used to collect the MPI data in the second time point.
+
+t1: The second timepoint that the MPI data was collected.
+
+t0.MPI: The value of MPI at the first time point, ranges from 0 to 1.
+
+t1.MPI: The value of MPI at the second time point, ranges from 0 to 1. 
+
+Change.in.MPI: The changes in MPI between t0 and t1 (t1.MPI - t0.MPI).
+
+There were some data that I have removed from the mpi_data data frame as they do not help with the visualisation. The description for the variables can be found in the raw data file (MPI Data 2023.xlsx).
+
+Variables description for world_data:
+
+name_long: The full name of all the countries.
+
+World.Region:The different regions that the countries belong to.
+
+Year: The most recent year that the survey was conducted to calculate value of MPI. 
+
+MPI: The value of MPI which ranges from 0 to 1. 
+
+Population.2021: The population size of the countries in 2021. They are in thousands. 
+
+geometry: The latitude and longitude of the country. This is the default data present in the data frame.
+
+The data frame "world_map" was derived from the rnaturalearth package. This data set was used to create the world map visualisation.
+
+
+
+
+
+
+
+
+
+
