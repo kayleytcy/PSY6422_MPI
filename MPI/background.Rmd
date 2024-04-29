@@ -1,0 +1,23 @@
+---
+title: "Background and Rationale"
+author: '230255274'
+date: "2024-04-29"
+output: html_document
+---
+
+
+# Introduction
+## Background
+The United Nations General Assembly established the Sustainable Development Goals (SDGs) in 2015, aiming to create a better and more sustainable future by 2030. The first two goals focus on achieving "no poverty" and "zero hunger” (UN, 2015). However, a series of global crises, including the COVID-19 pandemic, political instability and conflict, and climate change, have slowed progress in tackling poverty. The introduction of global Multidimensional Poverty Index (MPI) in 2010 has provided insights on SDG 1 (no poverty) and at the same time, incorporates indicators relevant to other SDGs. The goal of poverty measurement is to support, motivate, and verify the effective reduction of hardships that afflict people’s lives. By comparing poverty levels across different countries and over time, we can understand the ways and dimensions in which poverty has been alleviated (Alkire, Roche, & Vaz, 2017). The indicators for the calculation of MPI include years of schooling, child school attendance, child mortality, nutrition, electricity, improved drinking water, flooring, cooking fuel, and assets ownership (see Alkire and Robles, 2017). 
+
+## Data Origins
+The raw data was taken from OPHI (Oxford Poverty and Human Development Initiative) team for Global MPI from 2010-2023. The dataset consists of 110 countries, with 22 low-income countries, 85 middle-income countries, and 3 high-income countries. The data originates from a variety of household surveys across different countries. The surveys include Multiple Indicator Cluster Surveys (MICS), Demographic and Health Surveys (DHS), and other national surveys tailored for specific countries. The year of the surveys conducted ranges from 2011 to 2021/2022. 
+
+## Research Question
+How has MPI changes across the developing countries?
+
+My visualisations aims to look at 
+
+(1) The Multidimensional Poverty Index (MPI) across developing countries based on the most recent data collected.
+
+(2) The changes in Multidimensional Poverty Index (MPI) over the years. 

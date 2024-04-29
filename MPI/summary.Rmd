@@ -1,0 +1,39 @@
+---
+title: "Summary"
+author: '230255274'
+date: "2024-04-29"
+output: html_document
+---
+
+# Interpretations 
+
+The map shows that the countries in the Sub-Saharan Africa have the highest MPI as compared to the other developing countries. This indicates that among all the developing countries, more focus has to be placed on Sub-Saharan Africa if the United Nations aim to achieve "no poverty" by 2030. 
+From the bar graphs showing changes in MPI between two data points, we can conclude that most of the developing countries have made progress in reducing multidimensional poverty. The region Sub-Saharan Africa has indicated a trend of improving conditions over the represented periods although there are some countries showing an increase in MPI over the years. 
+By looking at both visualisations together, we can derive that most developing countries have made an attempt to resolve their poverty and they are coming to a success. 
+
+# Limitations and Future Directions
+
+Despite the first dataset being labeled "The Global Multidimensional Poverty Index 2023," the OPHI dataset contains no data from 2023, only spanning from 2012 to 2022. This mismatch may not reflect current poverty levels accurately, potentially skewing analyses and making it difficult to address recent shifts in socio-economic conditions effectively.
+
+For the second dataset, The MPI data was collected inconsistently across different years for each country, as shown in the cleaned dataset. This irregular collection schedule complicates comparisons of annual MPI changes and may overlook fluctuations due to data gaps, hindering reliable trend analysis.
+
+To align better with the United Nations' SDG Goal 1 (No Poverty) and enhance global development efforts, increasing the regularity and frequency of MPI data collection is crucial. More current data will facilitate more effective monitoring and timely policy adjustments.
+
+# Summary
+
+I have recently explored the Shiny App, which is excellent for creating interactive visualizations. In addition, I have expanded my skills in R and GitHub. I have learned that even minor errors, like misspellings or misplaced code, can lead to significant discrepancies or less visually appealing graphs.
+
+Given more time and data, I had like to develop another visualisation focused on the SDGs, examining how each goal contributes significantly to addressing various challenges in achieving a sustainable world and how they correlate with the MPI. 
+
+
+# References
+
+Alkire, S., Roche, J. M., & Vaz, A. (2017). Changes over time in multidimensional poverty: Methodology and results for 34 countries. World Development, 94, 232-249.
+
+Alkire, S., & Robles, G. (2017). Multidimensional poverty index summer 2017: Brief methodological note and results. OPHI Methodological Notes, 45.
+
+Oxford Poverty and Human Development Initiative (OPHI), & United Nations Development Programme (UNDP). (2023). Unstacking global poverty: Data for high-impact action. United Nations Development Programme and Oxford Poverty and Human Development Initiative.
+
+United Nations. (2015). Transforming our world: The 2030 Agenda for Sustainable Development. Department of Economic and Social Affairs: Sustainable Development. Retrieved from https://sdgs.un.org/2030agenda
+
+
